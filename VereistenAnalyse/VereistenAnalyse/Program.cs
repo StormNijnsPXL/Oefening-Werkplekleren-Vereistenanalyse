@@ -20,6 +20,11 @@
                 {
                     Console.WriteLine($"Foutieve login.\n{3 - attempt} pogingen over.");
                 }
+                else if (inputUsername.Equals(USERNAME) && inputPassword.Equals(PASSWORD))
+                {
+                    Console.WriteLine($"Welkom, {inputUsername}!");
+                    return;
+                }
             }
 
         }

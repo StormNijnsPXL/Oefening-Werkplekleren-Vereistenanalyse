@@ -6,6 +6,8 @@
         {
             Console.Write("Gebruikersnaam: ");
             string inputUsername = Console.ReadLine();
+            Console.Write("Wachtwoord: ");
+            string inputPassword = Console.ReadLine();
         }
     }
 }
